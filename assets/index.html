@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Skills Fusion - Login Page">
+    <meta name="keywords" content="Skills Fusion, login, registration">
+    <meta name="author" content="Skills Fusion Team">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+            <div class="loginform">
+                
+                 <div class="header">
+                    <img src="https://img.freepik.com/free-vector/hand-drawn-flat-design-anarchy-symbol_23-2149244365.jpg" width="80px" height="80px" alt="image">
+                    <h1>Welcome to the Hub </h1>
+                    <p>Enter your details to login</p>
+                </div>
+                    <hr>
+
+             <form class="content" action="backend/login.php" method="POST" id="login-form">
+
+              <div class="inputs">
+                  <div class="user-name">
+
+                   <!-- Username Field -->
+                    <label for="username">User ID / Reg No</label>
+                    <input type="text" id="username" name="username" required placeholder= "Enter your username">
+
+                   </div>
+
+                  <div class="password">
+
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required placeholder="Enter your password">
+                  </div>
+             </div>
+         <div class="remember-me">
+                <div>
+                      <input type="checkbox" name="rememberme" id="remember-me"> Keep me logged in
+                 </div>
+                     <div>
+                        <a href="" >Forgot password?</a>
+                    </div>
+       </div>
+
+                        <div class="logbtn">
+                            <button>Login</button>
+                        </div>
+
+                        <div class="register">
+                            <p>Don't have an account? <b><a href="regform.html" target="_blank">Register</a></b></p>
+                     </div>
+              </form>
+          </div>
+
+
+</body>
+</html>

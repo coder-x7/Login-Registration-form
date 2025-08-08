@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="regstyle.css">
+    <title>Registration form</title>
+</head>
+<body>
+
+    <div class="content">
+        <div class="title"> 
+            <img src="/ASSETS/IMAGES/Red-letter-S-isolated-on-transparent-background-PNG.png" width="80px" height="80px" alt="company logo">
+            <h1>Join as a Student</h1>
+            <p>Enter your details to register your account</p>
+            <hr>
+         </div>
+        <form class="regform" action="backend.java">
+        <div class="details">
+            <div class="name">
+            <label for="Name">Full Name</label>
+            <input type="text" id="Name" name="Name" required placeholder="Enter your name">
+        </div>
+             <div class="email">
+            <label for="Email">Email</label>
+            <input type="text" id="Email" name="Email" required placeholder="Enter your email">
+        </div>
+             <div class="reg">
+            <label for="RegID">Rgistration Id</label>
+            <input type="text" id="RegID" name="RegID" required placeholder="Enter your Registration ID">
+        </div>
+             <div class="password">
+            <label for="Password">Password</label>
+            <input type="password" id="Password" name="Password" required placeholder="Enter your password">
+        </div>
+
+        </div>
+    </form>
+        
+        <div class="action">
+            <button type="submit">Register</button>
+             <div class="login">
+                 <p>already have an account?<a href="index.html" target="_blank">login</a></p>
+                </div>
+        </div>
+                   
+</div>
+
+</body>
+</html>

@@ -1,0 +1,131 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+ body{
+    background-color:#c3b9c4;
+    background-attachment: fixed;
+     /* height: 900px; */
+     /* width: 1440px; */
+ }
+
+
+.content{
+    display: flex;
+    flex-direction: column;
+    
+}
+h1{
+    font-size: 24px;
+    color: #0A0D14;
+    text-align: center;
+    margin-top: 24px;
+    line-height: 32px;
+    font-weight: 600;
+    
+}
+p{
+    text-align: center;
+    margin-top: 0px;
+    line-height: 24px;
+    color: #2f3134;
+    
+}
+.header{
+    margin-top: 70px;
+    
+}
+
+.loginform{
+    width: 390px;
+    height: 500px;
+    padding: 32px;
+    /* background-color:#ffffff; */
+    background-image: radial-gradient(circle at top right,rgba(4, 211, 253, 0.231) 1%,rgba(234, 149, 12, 0.447)30%,rgba(61, 115, 231, 0.553)); 
+    border-radius: 12px;
+    position: absolute;
+    top: 50px;
+    left: 500px;
+    box-shadow: 0 0 0 1px #f4b7630a, 0 1px 1px -.5px #2a33450a, 0 3px 3px -1.5px #2a33460a, 0 6px 6px -3px #2a33460a, 0 12px 12px -6px #0e3f7e0a, 0 24px 24px -12px #0e3f7e0a;
+     
+}  
+.loginform img{
+    border-radius: 100px;
+    position: absolute;
+    left: 180px;
+    top: 10px;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 24px;
+    width: 376px;
+    height: 144px;
+   
+  
+    
+}
+hr{
+    width: 65%;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.user-name{
+    width: 376px;
+    height: 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    
+}
+
+.password{
+    width: 376px;
+    height: 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+}
+
+.inputs label{
+    width: 376px;
+    height: 20px;
+    
+}
+.inputs input{
+    width: 374px;
+    height: 64px;
+    border-radius: 10px;
+    padding-block: 10px;
+    padding-right: 10px;
+    padding-left: 12px;
+    outline: none;
+    background-color: rgba(227, 225, 225, 0.365);
+
+}
+.remember-me{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    /* gap: 50px; */
+    justify-content: space-between;
+}
+ .logbtn button{
+    background-color: #e7930ca2;
+    color: #FFFFFF;
+    margin-top: 50px;
+    width: 376px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    
+ }
+
+ .register p{
+    margin-top: 40px;
+ }

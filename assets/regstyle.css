@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(122, 121, 120);
+    background-image: radial-gradient(circle at top right,rgba(4, 211, 253, 0.231) 1%,rgba(234, 149, 12, 0.447)30%,rgba(61, 115, 231, 0.553)); 
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(255, 255, 255); */
+    background-image: url(/assets/IMAGES/_47fb7476-caae-4847-9683-a479cf20ffcb.jpg);
+    background-size: 100% 100%;
+    width: 440px;
+    height: 568px;
+    position: absolute;
+    top: 80px;
+    left: 540px;
+    border-radius: 10px;
+    align-items: center;
+    
+}
+
+.content .title{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.content .title img{
+    margin-top: 10px;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+}
+.email{
+    display: flex;
+    flex-direction: column;
+}
+.reg{
+    display: flex;
+    flex-direction: column;
+}
+.password{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    width: 350px;
+    padding: 10px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: rgb(187, 183, 183);
+    outline: none;
+}
+
+.action{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 40px;
+    position: relative;
+}
+button{
+    padding: 10px;
+    width: 360px;
+    border: none;
+    border-radius: 10px;
+    background-color: #2066EC;
+    color: white;
+}
+
+.login{
+    position:absolute ;
+    top: 60px;
+    left: 90px;
+}
